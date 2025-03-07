@@ -1,0 +1,52 @@
+university-project/
+├── backend/
+│   ├── manage.py
+│   ├── requirements.txt
+│   ├── university/
+│   │   ├── __init__.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   ├── wsgi.py
+│   │   └── asgi.py
+│   ├── accounts/
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   ├── views.py
+│   │   ├── urls.py
+│   │   └── serializers.py
+│   ├── courses/
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   ├── views.py
+│   │   ├── urls.py
+│   │   └── serializers.py
+│   ├── content/
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   ├── views.py
+│   │   ├── urls.py
+│   │   └── serializers.py
+│   └── exams/
+│       ├── __init__.py
+│       ├── models.py
+│       ├── views.py
+│       ├── urls.py
+│       └── serializers.py
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── Navbar.js
+│   │   ├── pages/
+│   │   │   ├── Login.js
+│   │   │   ├── Dashboard.js
+│   │   │   └── CourseManagement.js
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── styles.css
+│   ├── package.json
+│   └── README.md
+└── README.md
